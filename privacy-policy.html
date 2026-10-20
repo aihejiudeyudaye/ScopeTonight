@@ -3,7 +3,7 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>PhotoCleaner - 隐私政策</title>
+    <title>镜夜 ScopeTonight - 隐私政策</title>
     <style>
         * {
             margin: 0;
@@ -29,10 +29,10 @@
         }
         
         h1 {
-            color: #2c3e50;
+            color: #1c1e22;
             margin-bottom: 30px;
             font-size: 28px;
-            border-bottom: 3px solid #3498db;
+            border-bottom: 3px solid #b03830;
             padding-bottom: 10px;
         }
         
@@ -83,15 +83,15 @@
         }
         
         .highlight-box {
-            background-color: #e8f5e9;
-            border-left: 4px solid #4caf50;
+            background-color: #fdf2f1;
+            border-left: 4px solid #b03830;
             padding: 20px;
             margin: 20px 0;
             border-radius: 4px;
         }
         
         .highlight-box strong {
-            color: #2e7d32;
+            color: #8a2e28;
             font-size: 18px;
         }
         
@@ -112,105 +112,92 @@
 </head>
 <body>
     <div class="container">
-        <h1>PhotoCleaner 隐私政策</h1>
-        <p class="last-updated">最后更新时间：2025年1月</p>
+        <h1>镜夜 ScopeTonight 隐私政策</h1>
+        <p class="last-updated">最后更新时间：2026年10月</p>
         
         <div class="highlight-box">
-            <p><strong>重要声明：PhotoCleaner 是完全本地化的应用</strong></p>
-            <p>PhotoCleaner 是一个完全本地化的相册管理应用，<strong>没有后台服务器</strong>。我们<strong>不会收集、记录、存储或传输</strong>您的任何个人信息、使用数据或照片内容。所有数据都保存在您的设备本地。应用内购买功能通过 Apple 的 App Store 处理，我们不会获取任何交易信息。</p>
+            <p><strong>重要声明：镜夜以本地处理为主</strong></p>
+            <p>镜夜（ScopeTonight，Bundle ID：com.weber.ScopeTonight）是一款天文观测辅助应用，<strong>没有自建业务后台用于收集用户账户或观测内容</strong>。望远镜参数、观测记录、解锁状态等主要保存在您的设备本地。我们仅在必要时请求<strong>使用期间的位置权限</strong>，用于计算今夜可见天体；应用内购买由 Apple App Store / StoreKit 处理。</p>
         </div>
         
         <h2>1. 引言</h2>
-        <p>PhotoCleaner（"我们"、"我们的"或"本应用"）非常重视您的隐私保护。PhotoCleaner 是一个完全本地化的相册管理应用，没有后台服务器，不会收集、记录或传输您的任何数据。使用 PhotoCleaner 即表示您同意本隐私政策的条款。</p>
+        <p>镜夜（“我们”、“本应用”）重视您的隐私。使用本应用即表示您了解并同意本隐私政策。若不同意，请停止使用并卸载本应用。</p>
         
-        <h2>2. 重要声明：我们不会收集任何信息</h2>
-        <p><strong>PhotoCleaner 是一个完全本地化的应用，没有后台服务器。</strong>我们不会收集、记录、存储或传输您的任何个人信息或使用数据。</p>
-        
-        <h3>2.1 我们不会收集的信息</h3>
-        <p>PhotoCleaner 不会收集以下任何信息：</p>
+        <h2>2. 我们如何处理信息</h2>
+        <h3>2.1 我们不会主动收集的信息</h3>
+        <p>镜夜<strong>不要求注册账号</strong>，也不会为运营目的主动收集、上传以下信息：</p>
         <ul>
-            <li>您的个人身份信息（姓名、邮箱、电话号码等）</li>
-            <li>您存储在应用中的照片、视频内容</li>
-            <li>您的位置信息</li>
-            <li>您的联系人信息</li>
-            <li>设备信息（设备类型、操作系统版本等）</li>
-            <li>使用统计信息或分析数据</li>
-            <li>任何其他个人数据或使用数据</li>
+            <li>姓名、邮箱、电话等个人身份信息（除非您主动通过邮件联系我们）</li>
+            <li>相册、通讯录、麦克风、相机内容</li>
+            <li>用于广告追踪的第三方画像数据</li>
+            <li>将观测记录或望远镜清单上传至我们自建服务器</li>
         </ul>
         
-        <h3>2.2 数据完全本地存储</h3>
-        <p>您通过 PhotoCleaner 管理的所有照片和视频内容<strong>仅存储在您的设备本地</strong>，不会上传到任何服务器，我们无法访问这些数据。应用仅用于帮助您整理和管理本地相册，不会访问或传输您的照片内容。</p>
+        <h3>2.2 位置信息（必要权限）</h3>
+        <p>为计算您所在地「今夜」可见的天体高度与方位，本应用会请求 <strong>NSLocationWhenInUseUsageDescription（使用期间定位）</strong>：</p>
+        <ul>
+            <li>用途：天文方位/高度计算与今夜列表展示</li>
+            <li>精度：以完成观测辅助为限（应用配置为公里级精度量级）</li>
+            <li>存储：坐标用于设备本地计算；我们不会将其作为账户画像上传至自建服务器</li>
+            <li>控制：您可在系统设置中随时拒绝或撤销定位；拒绝后部分「今夜」能力可能不可用或降级</li>
+        </ul>
+        
+        <h3>2.3 设备本地数据</h3>
+        <p>以下数据保存在您的设备本地（例如 UserDefaults / 本地存储），用于应用功能，我们无法从自建后台读取：</p>
+        <ul>
+            <li>已登记的望远镜与目镜参数</li>
+            <li>观测记录（看见了 / 没看见、时间、关联镜子等）</li>
+            <li>语言偏好、夜视红光开关等设置</li>
+            <li>一次性解锁状态的本地缓存（最终权益以 Apple 交易为准）</li>
+        </ul>
+        
+        <h3>2.4 内置星表与计算</h3>
+        <p>应用内打包的天体目录与本地天文计算在设备上完成，用于展示今夜目标与指向建议。该数据不属于您的个人敏感信息。</p>
         
         <h2>3. 互联网连接</h2>
-        <p>PhotoCleaner 仅在以下情况下需要互联网连接：</p>
+        <p>镜夜主要功能可在本地使用。可能需要联网的情况包括：</p>
         <ul>
-            <li><strong>应用内购买</strong>：订阅和购买功能需要通过 Apple 的 App Store 进行，这是由 Apple 处理的交易过程。</li>
-        </ul>
-        <p>除了应用内购买外，PhotoCleaner 不需要互联网连接即可正常使用。</p>
-        
-        <h2>4. 数据存储和安全</h2>
-        <h3>4.1 完全本地存储</h3>
-        <p><strong>您通过 PhotoCleaner 管理的所有照片和视频内容仅存储在您的设备本地。</strong>我们没有任何服务器，因此您的数据永远不会上传到任何服务器。数据完全由您控制，我们无法访问。应用仅通过系统相册权限访问您的照片，用于整理和管理，不会复制或上传您的照片内容。</p>
-        
-        <h3>4.2 安全措施</h3>
-        <p>为了保护您的本地数据，PhotoCleaner 提供以下安全功能：</p>
-        <ul>
-            <li><strong>本地处理</strong>：所有照片整理、重复检测等操作均在设备本地完成</li>
-            <li><strong>无网络传输</strong>：数据不会通过互联网传输</li>
-            <li><strong>权限控制</strong>：应用仅请求必要的相册访问权限，用于照片管理功能</li>
-            <li><strong>数据隐私</strong>：我们不会访问、读取或分析您的照片内容</li>
+            <li><strong>应用内购买与恢复购买</strong>：通过 Apple App Store / StoreKit 完成</li>
+            <li><strong>系统级能力</strong>：例如系统时间、可选的系统服务（非本应用自建分析后台）</li>
         </ul>
         
-        <h2>5. 第三方服务</h2>
-        <h3>5.1 Apple 服务</h3>
-        <p>PhotoCleaner 仅在以下情况下使用 Apple 服务：</p>
+        <h2>4. 第三方服务</h2>
+        <h3>4.1 Apple</h3>
         <ul>
-            <li><strong>App Store</strong>：用于应用内购买和订阅</li>
-            <li><strong>Photos Framework</strong>：用于访问和管理系统相册中的照片</li>
+            <li><strong>App Store / StoreKit</strong>：处理一次性解锁购买与恢复购买</li>
+            <li><strong>Core Location</strong>：在您授权后提供位置</li>
         </ul>
-        <p>这些服务的使用受 Apple 的隐私政策和服务条款约束。我们不会通过这些服务收集任何用户数据。</p>
+        <p>上述服务受 Apple 的隐私政策与条款约束。支付与收据由 Apple 处理，我们不会存储您的银行卡信息。</p>
         
-        <h3>5.2 无第三方分析服务</h3>
-        <p><strong>PhotoCleaner 不使用任何第三方分析服务。</strong>我们不会追踪您的使用情况，也不会收集任何分析数据。</p>
+        <h3>4.2 分析与广告</h3>
+        <p>当前版本<strong>不以第三方广告或分析 SDK 为目的收集使用行为</strong>。若未来引入，我们将更新本政策并依法告知。</p>
         
-        <h2>6. 数据共享和披露</h2>
-        <p><strong>由于我们不收集任何用户数据，因此不存在数据共享或披露的情况。</strong>您的所有照片数据都存储在您的设备本地，完全由您控制。我们不会访问、分析或分享您的照片内容。</p>
+        <h2>5. 数据共享</h2>
+        <p>我们不会出售您的个人信息。除法律要求或为完成 Apple 交易所必需外，我们不会将您的本地观测数据提交给无关第三方。</p>
         
-        <h2>7. 您的权利</h2>
-        <p>由于所有数据都存储在您的设备本地，您对您的数据享有完全的控制权：</p>
+        <h2>6. 您的权利与控制</h2>
         <ul>
-            <li><strong>完全所有权</strong>：您的所有照片数据都属于您，我们无法访问</li>
-            <li><strong>访问权</strong>：您可以随时通过系统相册或应用访问您的照片</li>
-            <li><strong>删除权</strong>：您可以随时删除照片或卸载应用</li>
-            <li><strong>隐私权</strong>：您的照片数据不会被收集、记录或传输给任何第三方</li>
-            <li><strong>权限管理</strong>：您可以在系统设置中随时撤销相册访问权限</li>
+            <li><strong>本地数据</strong>：可通过应用内删除观测/镜子，或卸载应用清除本地数据</li>
+            <li><strong>定位权限</strong>：在系统设置中管理</li>
+            <li><strong>购买</strong>：通过 Apple ID / App Store 账户管理；恢复购买可在应用内发起</li>
+            <li><strong>联系我们</strong>：见下文邮箱</li>
         </ul>
         
-        <h2>8. 儿童隐私</h2>
-        <p>PhotoCleaner 不面向 13 岁以下的儿童。由于我们不收集任何个人信息，因此不存在收集儿童信息的情况。所有数据都存储在设备本地，完全由用户控制。</p>
+        <h2>7. 儿童隐私</h2>
+        <p>本应用不面向 13 岁以下儿童设计。我们不会故意收集儿童的个人信息。</p>
         
-        <h2>9. 隐私政策变更</h2>
-        <p>我们可能会不时更新本隐私政策。重大变更将通过应用内通知或更新应用版本时告知您。继续使用 PhotoCleaner 即表示您接受更新后的隐私政策。</p>
+        <h2>8. 政策变更</h2>
+        <p>我们可能更新本政策。重大变更将通过应用更新或其他合理方式提示。继续使用即视为接受更新后的政策。</p>
         
-        <h2>10. 联系我们</h2>
+        <h2>9. 联系我们</h2>
         <div class="contact-info">
-            <p>如果您对本隐私政策有任何疑问或意见，请通过以下方式联系我们：</p>
+            <p>如对本隐私政策有疑问，请联系：</p>
+            <p><strong>应用</strong>：镜夜 ScopeTonight</p>
             <p><strong>邮箱</strong>：piaochensuifeng@gmail.com</p>
         </div>
         
-        <h2>11. 相册访问权限说明</h2>
-        <p>PhotoCleaner 需要访问您的相册权限以提供以下功能：</p>
-        <ul>
-            <li><strong>照片整理</strong>：帮助您创建相册、整理照片</li>
-            <li><strong>重复检测</strong>：检测和清理重复照片</li>
-            <li><strong>批量操作</strong>：批量移动、删除照片</li>
-            <li><strong>照片管理</strong>：按时间、设备等信息分类管理照片</li>
-        </ul>
-        <p>我们仅使用这些权限来提供相册管理功能，不会访问、分析或上传您的照片内容。您可以在系统设置中随时撤销这些权限。</p>
-        
-        <h2>12. 适用法律</h2>
-        <p>本隐私政策受中华人民共和国法律管辖。如有争议，应通过友好协商解决；协商不成的，提交有管辖权的人民法院解决。</p>
+        <h2>10. 适用法律</h2>
+        <p>本政策受中华人民共和国法律管辖。争议应先友好协商；协商不成的，提交有管辖权的人民法院解决。</p>
     </div>
 </body>
 </html>
-
